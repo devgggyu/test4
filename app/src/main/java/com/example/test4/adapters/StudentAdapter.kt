@@ -31,10 +31,13 @@ class StudentAdapter(val mContext : Context,
 
         val nameTxt = row.findViewById<TextView>(R.id.nameTxt)
         val birthYearTxt = row.findViewById<TextView>(R.id.birthYearTxt)
+        val sexTxt = row.findViewById<TextView>(R.id.sexTxt)
 
         nameTxt.text = studentData.name
 
         birthYearTxt.text = "(${studentData.birthYear}년생)"
+
+        sexTxt.text = "${studentData.sex}성"
 
 
         return  row

@@ -4,5 +4,6 @@ package com.example.test4.dates
 
 class Student(
     val name : String,
-    val birthYear : Int) {
+    val birthYear : Int,
+    val sex : String) {
 }

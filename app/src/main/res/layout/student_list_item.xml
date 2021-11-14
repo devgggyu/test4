@@ -26,6 +26,13 @@
             android:text="(1998년생)"
             android:layout_marginLeft="5dp"/>
 
+        <TextView
+            android:id="@+id/sexTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="성별"
+            android:layout_marginLeft="5dp"/>
+
 
 
 

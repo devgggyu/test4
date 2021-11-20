@@ -53,6 +53,8 @@ class StudentAdapter(val mContext : Context,
 
 //        각 학생의 이름 / 출생년도 반영
 
+        studentData.printName()
+
 
         return  row
 //        결과로 "row" 가 나간다

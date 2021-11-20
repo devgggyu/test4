@@ -11,35 +11,17 @@ class Student(
     val sex : String) {
 // 생성자 만들기 ex) class 이름
 
-    fun printMyNameToLog(num1 : Int, num2 : Double) : Boolean{
+    fun printName() {
+        Log.d("연습용", this.name)
+    }
 
+    fun getMyAgeIn2021() : Int {
+        val myAge = 2021 - this.birthYear + 1
 
-//        학생의 기능? 예시
-//        자신의 이름을 로그로 찍는 기능
+        return myAge
+    }
 
-        if (num1 > num2) {
-            Log.d("연습용", this.name)
-            return false
-
-//            num1이 num2 보다 크면 로그를 이름만 출력해
-        }
-        else {
-            Log.d("연습용", this.name)
-            Log.d("연습용", "잘 부탁드립니다.")
-        }
-
-//        그렇지 않다면, 이름과 인사도 로그를 출력해해
-
-        return true
-
-
-
-
-
-
-
-
-
+//    출생년도를 가지고 => (2021년 한국식) 나이로 변환해서 보여주기
 
 }
 
